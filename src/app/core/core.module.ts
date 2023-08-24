@@ -1,14 +1,14 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { LoaderComponent } from './loader/loader.component';
-import { ServiceComponent } from './service/service.component';
+//import { LoaderComponent } from './loader/loader.component';
+//import { ServiceComponent } from './service/service.component';
 
 
 
 @NgModule({
   declarations: [
-    LoaderComponent,
-    ServiceComponent
+//    LoaderComponent,
+//    ServiceComponent
   ],
   imports: [
     CommonModule
