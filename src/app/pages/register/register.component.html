@@ -8,18 +8,21 @@
      <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap" rel="stylesheet">
     <title>Formulario Registro</title>
   </head>
+  
   <body>
-    <section class="form-register">
-     <input class="controls" type="text" name="nombres" id="nombres"  placeholder="Ingrese su Nombre">
-     <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
-     <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
-     <input class="controls" type="password" name="correo" id="correo" placeholder="Ingrese su Contraseña">
-     <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
+  <div class="app-container">
+    <form class="form-register">
+     <input class="controls" type="text" name="nombres" id="nombres"  placeholder="Ingrese su Nombre" aria-label="Nombre">
+     <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido" aria-label="Apellido">
+     <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo" aria-label="Correo">
+     <input class="controls" type="password" name="contraseña" id="contraseña" placeholder="Ingrese su Contraseña" aria-label="Contraseña">
+     <p>Estoy de acuerdo con <a href="#">Términos y Condiciones</a></p>
      <div class="botonR">
-       <input class="botons" type=" submit" value="Registrar">
+       <button class="registration-button" aria-label="Registar">Registar</button>
      </div>
-      <p><a href="#">¿Ya tiene cuenta?</a></p>
-    </section>
-
+      <p><a href="#">¿Ya tienes cuenta?</a></p>
+    </form>
+   </div>
   </body>
   </html>
+
